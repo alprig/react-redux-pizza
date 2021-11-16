@@ -68,8 +68,8 @@ const Home = () => {
                     ))
                     : Array(12)
                         .fill(0)
-                        .map((_, index) => <LoadingBlock key={index}/>)}
-
+                        .map((_, index) => <LoadingBlock key={index}/>)
+                }
 
             </div>
         </div>
